@@ -1,0 +1,105 @@
+---
+import { linguistData } from "linguist-colors-list";
+import { GithubCardDummy } from "github-cards-react";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>GitHub Linguist Colors</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 2rem;
+      }
+      h1 {
+        text-align: center;
+        color: #222;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+        background-color: white;
+      }
+      th,
+      td {
+        padding: 12px;
+        border: 1px solid #ddd;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+      }
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+      tr:hover {
+        background-color: #f1f1f1;
+      }
+      td span {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>GitHub Linguist Colors</h1>
+    <div style="text-align: center;">
+      <a href="https://github.com/GalvinPython/linguist-colors"
+        >View on GitHub</a
+      >
+      <a href="https://www.npmjs.com/package/linguist-colors-list"
+        >View on NPM</a
+      >
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Language</th>
+          <th>Card</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          Object.entries(linguistData).map(([language, { color }]) => (
+            <tr>
+              <td>
+                <span style={{ color }}>{language}</span>
+              </td>
+              <td>
+                <GithubCardDummy
+                  username="galvinpython"
+                  data={{
+                    name: "linguist-colors",
+                    description: "A GitHub dummy card for " + language + "!",
+                    html_url: "https://github.com/galvinpython/linguist-colors",
+                    stargazers_count: 0,
+                    forks_count: 0,
+                    language: language,
+                    owner: {
+                      avatar_url:
+                        "https://avatars.githubusercontent.com/u/77013913?v=4",
+                    },
+                    languages: {
+                      [language]: 100,
+                    },
+                  }}
+                  theme="dark"
+                  client:load
+                />
+              </td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </body>
+</html>

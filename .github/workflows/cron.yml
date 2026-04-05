@@ -1,0 +1,50 @@
+name: "Cron Workflow - Update Linguist Data"
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+
+jobs:
+  update-linguist-data:
+    runs-on: ubuntu-slim
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "25"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Update Linguist data
+        run: npm run fetch
+
+      - name: Check for changes in src/index.ts
+        id: check_changes
+        run: |
+          if git diff --quiet src/index.ts; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Get today's date
+        if: steps.check_changes.outputs.changed == 'true'
+        run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+
+      - name: Create Pull Request
+        if: steps.check_changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: Update Linguist data (automated)
+          title: Update Linguist data - ${{ env.DATE }}
+          body: |
+            This PR updates the Linguist data with the latest information.
+            Please review and merge if everything looks good.
+          base: main
+          branch: update-linguist-data/${{ env.DATE }}
