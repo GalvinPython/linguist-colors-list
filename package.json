@@ -25,7 +25,7 @@
     "scripts": {
         "build": "tsc",
         "test": "jest",
-        "fetch": "bun utils/fetchLinguistData.ts"
+        "fetch": "npm run utils/fetchLinguistData.ts"
     },
     "author": "GalvinPython <imgalvin@pm.me>",
     "license": "MIT",
