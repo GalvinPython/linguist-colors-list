@@ -616,6 +616,9 @@ export const linguistData: ColorRoot = {
     "Filterscript": {
         "color": "#ededed"
     },
+    "FlatBuffers": {
+        "color": "#ed284a"
+    },
     "Flix": {
         "color": "#d44a45"
     },
@@ -1132,6 +1135,9 @@ export const linguistData: ColorRoot = {
     "Liquid": {
         "color": "#67b8de"
     },
+    "Liquidsoap": {
+        "color": "#990066"
+    },
     "Literate Agda": {
         "color": "#315665"
     },
@@ -1227,6 +1233,9 @@ export const linguistData: ColorRoot = {
     },
     "Max": {
         "color": "#c4a79c"
+    },
+    "MeTTa": {
+        "color": "#6a5acd"
     },
     "Mercury": {
         "color": "#ff2b2b"
