@@ -1,6 +1,6 @@
 import fs from "fs"
 import YAML from "yaml"
-import { type ColorRoot } from "../src/index"
+import { type ColorRoot } from "../src/index.ts"
 
 // Types
 export type LanguageInfo = {

@@ -3,6 +3,8 @@ name: "Cron Workflow - Update Linguist Data"
 on:
     schedule:
         - cron: "0 3 * * *"
+    push:
+        - main
 
 jobs:
     update-linguist-data:

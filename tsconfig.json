@@ -18,7 +18,8 @@
         "forceConsistentCasingInFileNames": true,
         "moduleDetection": "force",
         "isolatedModules": true,
-        "resolveJsonModule": true
+        "resolveJsonModule": true,
+        "types": ["node"]
     },
     "include": [
         "src"

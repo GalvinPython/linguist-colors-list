@@ -1,6 +1,6 @@
 {
     "name": "linguist-colors-list",
-    "version": "1.0.20260301",
+    "version": "1.0.20260409",
     "description": "Get all the hex codes of the colors used in GitHub Linguist.",
     "repository": {
         "type": "git",
@@ -25,7 +25,7 @@
     "scripts": {
         "build": "tsc",
         "test": "jest",
-        "fetch": "npm run utils/fetchLinguistData.ts"
+        "fetch": "node utils/fetchLinguistData.ts"
     },
     "author": "GalvinPython <imgalvin@pm.me>",
     "license": "MIT",
@@ -43,6 +43,7 @@
     ],
     "devDependencies": {
         "@types/jest": "^30.0.0",
+        "@types/node": "^25.5.2",
         "jest": "^30.3.0",
         "ts-jest": "^29.4.9",
         "typescript": "^6.0.2",
