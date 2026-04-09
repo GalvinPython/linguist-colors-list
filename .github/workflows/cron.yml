@@ -4,7 +4,7 @@ on:
     schedule:
         - cron: "0 3 * * *"
     push:
-        - main
+        branches: ["main"]
 
 jobs:
     update-linguist-data:
