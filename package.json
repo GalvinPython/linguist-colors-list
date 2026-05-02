@@ -1,6 +1,6 @@
 {
     "name": "linguist-colors-list",
-    "version": "1.0.20260409",
+    "version": "1.0.20260502",
     "description": "Get all the hex codes of the colors used in GitHub Linguist.",
     "repository": {
         "type": "git",

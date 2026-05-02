@@ -1963,6 +1963,9 @@ export const linguistData: ColorRoot = {
     "SourcePawn": {
         "color": "#f69e1d"
     },
+    "SpiceDB Schema": {
+        "color": "#a5318a"
+    },
     "Spline Font Database": {
         "color": "#ededed"
     },
