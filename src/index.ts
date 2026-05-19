@@ -886,6 +886,9 @@ export const linguistData: ColorRoot = {
     "IGOR Pro": {
         "color": "#0000cc"
     },
+    "IL Assembly": {
+        "color": "#512BD4"
+    },
     "INI": {
         "color": "#d1dbe0"
     },
