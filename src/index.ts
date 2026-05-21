@@ -1693,6 +1693,9 @@ export const linguistData: ColorRoot = {
     "QuickBASIC": {
         "color": "#008080"
     },
+    "Quint": {
+        "color": "#9d6ce5"
+    },
     "R": {
         "color": "#198CE7"
     },
