@@ -157,6 +157,9 @@ export const linguistData: ColorRoot = {
     "B4X": {
         "color": "#00e4ff"
     },
+    "BAML": {
+        "color": "#a855f7"
+    },
     "BASIC": {
         "color": "#ff0000"
     },
