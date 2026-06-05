@@ -44,10 +44,8 @@ jobs:
               uses: peter-evans/create-pull-request@v8
               with:
                   token: ${{ secrets.GITHUB_TOKEN }}
-                  commit-message: Update Linguist data (automated)
+                  commit-message: Update Linguist data (automated) - ${{ steps.get_date.outputs.date }}
                   title: Update Linguist data - ${{ steps.get_date.outputs.date }}
-                  body: |
-                      This PR updates the Linguist data with the latest information.
-                      Please review and merge if everything looks good.
+                  body: This PR updates the Linguist data with the latest information for ${{ steps.get_date.outputs.date }}
                   base: main
                   branch: update-linguist-data/${{ steps.get_date.outputs.date }}
