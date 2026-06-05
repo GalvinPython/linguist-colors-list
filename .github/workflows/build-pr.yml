@@ -4,6 +4,13 @@ name: "CI: Build (PR)"
 
 on:
     pull_request:
+        branches: ["main"]
+        paths: 
+            - "src/**"
+            - "package.json"
+            - "package-lock.json"
+            - "tsconfig.json"
+            - ".github/workflows/build-pr.yml"
 
 concurrency:
     group: node-build-${{ github.ref }}
@@ -16,7 +23,7 @@ jobs:
         strategy:
             fail-fast: false
             matrix:
-                node-version: [20, 22, 24, 25]
+                node-version: [22, 24, 26]
 
         steps:
             - name: Checkout repository
