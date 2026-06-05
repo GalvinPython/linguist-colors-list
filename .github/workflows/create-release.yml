@@ -6,7 +6,7 @@ on:
 
 jobs:
     create-release:
-        if: contains(github.event.head_commit.message, 'Update Linguist data (automated)')
+        if: contains(github.event.head_commit.message, 'Update Linguist data')
         runs-on: ubuntu-slim
 
         permissions:
