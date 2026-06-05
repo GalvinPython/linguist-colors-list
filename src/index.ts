@@ -1498,6 +1498,9 @@ export const linguistData: ColorRoot = {
     "Org": {
         "color": "#77aa99"
     },
+    "OverPy": {
+        "color": "#78b355"
+    },
     "OverpassQL": {
         "color": "#cce2aa"
     },
@@ -1620,6 +1623,9 @@ export const linguistData: ColorRoot = {
     },
     "Prisma": {
         "color": "#0c344b"
+    },
+    "Pro*C": {
+        "color": "#bb8368"
     },
     "Processing": {
         "color": "#0096D8"
@@ -1783,6 +1789,9 @@ export const linguistData: ColorRoot = {
     "Redirect Rules": {
         "color": "#ededed"
     },
+    "Redscript": {
+        "color": "#f44336"
+    },
     "Regular Expression": {
         "color": "#009a00"
     },
@@ -1806,6 +1815,9 @@ export const linguistData: ColorRoot = {
     },
     "RobotFramework": {
         "color": "#00c0b5"
+    },
+    "Robots Exclusion Rules": {
+        "color": "#ededed"
     },
     "Roc": {
         "color": "#7c38f5"
@@ -2413,14 +2425,14 @@ export const linguistData: ColorRoot = {
     "ooc": {
         "color": "#b0b77e"
     },
+    "pkg-config": {
+        "color": "#2b5e82"
+    },
     "q": {
         "color": "#0040cd"
     },
     "reStructuredText": {
         "color": "#141414"
-    },
-    "robots.txt": {
-        "color": "#ededed"
     },
     "sed": {
         "color": "#64b970"
