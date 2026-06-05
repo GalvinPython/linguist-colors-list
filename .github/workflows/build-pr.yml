@@ -5,6 +5,12 @@ name: "CI: Build (PR)"
 on:
     pull_request:
         branches: ["main"]
+        paths: 
+            - "src/**"
+            - "package.json"
+            - "package-lock.json"
+            - "tsconfig.json"
+            - ".github/workflows/build-pr.yml"
 
 concurrency:
     group: node-build-${{ github.ref }}
