@@ -1612,6 +1612,9 @@ export const linguistData: ColorRoot = {
     "PostScript": {
         "color": "#da291c"
     },
+    "Power Query": {
+        "color": "#d38e0d"
+    },
     "PowerBuilder": {
         "color": "#8f0f8d"
     },
