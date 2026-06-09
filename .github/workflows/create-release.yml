@@ -13,7 +13,7 @@ jobs:
 
         steps:
             - name: Checkout
-              uses: actions/checkout@v4
+              uses: actions/checkout@v6
 
             - name: Get version from package.json
               id: version
@@ -30,7 +30,7 @@ jobs:
                   tag_name: v${{ steps.version.outputs.VERSION }}
     
     build-and-publish:
-        if: contains(github.event.head_commit.message, 'Update Linguist data')
+        needs: create-release
         runs-on: ubuntu-slim
         permissions:
             contents: read
