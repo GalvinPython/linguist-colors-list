@@ -8,13 +8,12 @@ jobs:
     create-release:
         if: contains(github.event.head_commit.message, 'Update Linguist data')
         runs-on: ubuntu-slim
-
         permissions:
             contents: write
 
         steps:
             - name: Checkout
-              uses: actions/checkout@v4
+              uses: actions/checkout@v6
 
             - name: Get version from package.json
               id: version
@@ -29,3 +28,33 @@ jobs:
               uses: softprops/action-gh-release@v2
               with:
                   tag_name: v${{ steps.version.outputs.VERSION }}
+    
+    build-and-publish:
+        needs: create-release
+        runs-on: ubuntu-slim
+        permissions:
+            contents: read
+            id-token: write
+
+        steps:
+            - uses: actions/checkout@v6
+
+            - uses: actions/setup-node@v6
+              with:
+                  node-version: "26.x"
+                  registry-url: "https://registry.npmjs.org"
+                  package-manager-cache: false
+
+            - name: Install dependencies
+              run: npm ci
+
+            - name: Run tests
+              run: npm test
+
+            - name: Build package
+              run: npm run build
+
+            - name: Publish to npm
+              run: npm publish --provenance --access public
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
