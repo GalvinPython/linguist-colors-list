@@ -4,12 +4,12 @@
     "description": "Get all the hex codes of the colors used in GitHub Linguist.",
     "repository": {
         "type": "git",
-        "url": "https://github.com/GalvinPython/linguist-colors.git"
+        "url": "https://github.com/GalvinPython/linguist-colors-list.git"
     },
     "bugs": {
-        "url": "https://github.com/GalvinPython/linguist-colors/issues"
+        "url": "https://github.com/GalvinPython/linguist-colors-list/issues"
     },
-    "homepage": "https://github.com/GalvinPython/linguist-colors#readme",
+    "homepage": "https://github.com/GalvinPython/linguist-colors-list#readme",
     "type": "module",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
