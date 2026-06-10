@@ -805,6 +805,9 @@ export const linguistData: ColorRoot = {
     "Groovy Server Pages": {
         "color": "#4298b8"
     },
+    "GtkRC": {
+        "color": "#7fe719"
+    },
     "HAProxy": {
         "color": "#106da9"
     },
