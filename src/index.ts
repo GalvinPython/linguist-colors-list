@@ -208,6 +208,9 @@ export const linguistData: ColorRoot = {
     "BlitzMax": {
         "color": "#cd6400"
     },
+    "Blueprint": {
+        "color": "#3584E4"
+    },
     "Bluespec": {
         "color": "#12223c"
     },
