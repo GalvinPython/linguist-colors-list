@@ -245,7 +245,7 @@ export const linguistData: ColorRoot = {
         "color": "#555555"
     },
     "C#": {
-        "color": "#178600"
+        "color": "#7355dd"
     },
     "C++": {
         "color": "#f34b7d"
