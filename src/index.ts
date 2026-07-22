@@ -754,6 +754,9 @@ export const linguistData: ColorRoot = {
     "Glyph Bitmap Distribution Format": {
         "color": "#ededed"
     },
+    "Gno": {
+        "color": "#530c04"
+    },
     "Gnuplot": {
         "color": "#f0a9f0"
     },
