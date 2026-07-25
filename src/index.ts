@@ -755,7 +755,7 @@ export const linguistData: ColorRoot = {
         "color": "#ededed"
     },
     "Gno": {
-        "color": "#530c04"
+        "color": "#226c57"
     },
     "Gnuplot": {
         "color": "#f0a9f0"
