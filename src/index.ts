@@ -85,6 +85,9 @@ export const linguistData: ColorRoot = {
     "Aiken": {
         "color": "#640ff8"
     },
+    "Aleo": {
+        "color": "#154BF9"
+    },
     "Alloy": {
         "color": "#64C800"
     },
@@ -162,6 +165,12 @@ export const linguistData: ColorRoot = {
     },
     "BASIC": {
         "color": "#ff0000"
+    },
+    "BBCode": {
+        "color": "#CAFF42"
+    },
+    "BIRD2": {
+        "color": "#b6d7e4"
     },
     "BQN": {
         "color": "#2b7067"
@@ -949,6 +958,9 @@ export const linguistData: ColorRoot = {
     "JAR Manifest": {
         "color": "#b07219"
     },
+    "JASS": {
+        "color": "#FF0303"
+    },
     "JCL": {
         "color": "#d90e09"
     },
@@ -1168,6 +1180,9 @@ export const linguistData: ColorRoot = {
     "LiveScript": {
         "color": "#499886"
     },
+    "Lobster": {
+        "color": "#f95428"
+    },
     "Logos": {
         "color": "#ededed"
     },
@@ -1272,6 +1287,9 @@ export const linguistData: ColorRoot = {
     },
     "MiniD": {
         "color": "#ededed"
+    },
+    "MiniScript": {
+        "color": "#4B4A56"
     },
     "MiniYAML": {
         "color": "#ff1111"
@@ -1906,8 +1924,8 @@ export const linguistData: ColorRoot = {
     "Sail": {
         "color": "#259dd5"
     },
-    "SaltStack": {
-        "color": "#646464"
+    "Salt": {
+        "color": "#57bcad"
     },
     "Sass": {
         "color": "#a53b70"
@@ -2089,6 +2107,9 @@ export const linguistData: ColorRoot = {
     "Talon": {
         "color": "#333333"
     },
+    "Tape": {
+        "color": "#ededed"
+    },
     "Tcl": {
         "color": "#e4cc98"
     },
@@ -2130,6 +2151,9 @@ export const linguistData: ColorRoot = {
     },
     "Toit": {
         "color": "#c2c9fb"
+    },
+    "Tolk": {
+        "color": "#30A1F5"
     },
     "Tor Config": {
         "color": "#59316b"
@@ -2208,6 +2232,9 @@ export const linguistData: ColorRoot = {
     },
     "Verilog": {
         "color": "#b2b7f8"
+    },
+    "Verse": {
+        "color": "#518ef8"
     },
     "Vim Help File": {
         "color": "#199f4b"
@@ -2451,6 +2478,9 @@ export const linguistData: ColorRoot = {
     },
     "templ": {
         "color": "#66D0DD"
+    },
+    "ucode": {
+        "color": "#00b8d4"
     },
     "vCard": {
         "color": "#ee2647"
