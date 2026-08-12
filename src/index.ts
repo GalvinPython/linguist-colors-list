@@ -925,6 +925,9 @@ export const linguistData: ColorRoot = {
     "Ignore List": {
         "color": "#000000"
     },
+    "ImHex Pattern Language": {
+        "color": "#3a6be0"
+    },
     "ImageJ Macro": {
         "color": "#99AAFF"
     },
