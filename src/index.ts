@@ -154,6 +154,9 @@ export const linguistData: ColorRoot = {
     "Awk": {
         "color": "#c30e9b"
     },
+    "B": {
+        "color": "#da7666"
+    },
     "B (Formal Method)": {
         "color": "#8aa8c5"
     },
