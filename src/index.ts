@@ -613,6 +613,9 @@ export const linguistData: ColorRoot = {
     "FLUX": {
         "color": "#88ccff"
     },
+    "FPP": {
+        "color": "#d37327"
+    },
     "Factor": {
         "color": "#636746"
     },
@@ -2245,10 +2248,10 @@ export const linguistData: ColorRoot = {
     "Vim Help File": {
         "color": "#199f4b"
     },
-    "Vim Script": {
+    "Vim Snippet": {
         "color": "#199f4b"
     },
-    "Vim Snippet": {
+    "Vim script": {
         "color": "#199f4b"
     },
     "Visual Basic .NET": {
