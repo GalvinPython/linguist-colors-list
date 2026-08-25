@@ -2245,6 +2245,9 @@ export const linguistData: ColorRoot = {
     "Verse": {
         "color": "#518ef8"
     },
+    "Vespa Schema Definition": {
+        "color": "#61D790"
+    },
     "Vim Help File": {
         "color": "#199f4b"
     },
