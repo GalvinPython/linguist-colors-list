@@ -1738,6 +1738,9 @@ export const linguistData: ColorRoot = {
     "QuakeC": {
         "color": "#975777"
     },
+    "Quartus Simulation IP": {
+        "color": "#58C42E"
+    },
     "QuickBASIC": {
         "color": "#008080"
     },
@@ -1890,6 +1893,9 @@ export const linguistData: ColorRoot = {
     },
     "SELinux Policy": {
         "color": "#ededed"
+    },
+    "SIP": {
+        "color": "#4E8D83"
     },
     "SMT": {
         "color": "#ededed"
