@@ -1846,6 +1846,9 @@ export const linguistData: ColorRoot = {
     "Rez": {
         "color": "#FFDAB3"
     },
+    "Rhai": {
+        "color": "#FBA63B"
+    },
     "Rich Text Format": {
         "color": "#ededed"
     },
