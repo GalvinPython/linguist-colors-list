@@ -124,6 +124,9 @@ export const linguistData: ColorRoot = {
     "Arc": {
         "color": "#aa2afe"
     },
+    "ArkTS": {
+        "color": "#0080ff"
+    },
     "AsciiDoc": {
         "color": "#73a0c5"
     },
@@ -1107,6 +1110,9 @@ export const linguistData: ColorRoot = {
     },
     "LLVM": {
         "color": "#185619"
+    },
+    "LLVM TableGen": {
+        "color": "#6E8B3D"
     },
     "LOLCODE": {
         "color": "#cc9900"
