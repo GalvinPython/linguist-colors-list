@@ -578,7 +578,7 @@ export const linguistData: ColorRoot = {
         "color": "#4d6977"
     },
     "Elixir": {
-        "color": "#6e4a7e"
+        "color": "#8847B9"
     },
     "Elm": {
         "color": "#60B5CC"
