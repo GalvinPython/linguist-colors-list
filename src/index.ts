@@ -193,6 +193,9 @@ export const linguistData: ColorRoot = {
     "Befunge": {
         "color": "#ededed"
     },
+    "Bend": {
+        "color": "#ededed"
+    },
     "Berry": {
         "color": "#15A13C"
     },
