@@ -151,6 +151,9 @@ export const linguistData: ColorRoot = {
     "AutoIt": {
         "color": "#1C3552"
     },
+    "AviSynth": {
+        "color": "#6C5D95"
+    },
     "Avro IDL": {
         "color": "#0040FF"
     },
@@ -556,6 +559,9 @@ export const linguistData: ColorRoot = {
     "Earthly": {
         "color": "#2af0ff"
     },
+    "EasyCrypt": {
+        "color": "#2a5db0"
+    },
     "Easybuild": {
         "color": "#069406"
     },
@@ -916,6 +922,9 @@ export const linguistData: ColorRoot = {
     "IDL": {
         "color": "#a3522f"
     },
+    "IFC": {
+        "color": "#ededed"
+    },
     "IGOR Pro": {
         "color": "#0000cc"
     },
@@ -1240,6 +1249,9 @@ export const linguistData: ColorRoot = {
     "MDX": {
         "color": "#fcb32c"
     },
+    "METAFONT": {
+        "color": "#8a4a2b"
+    },
     "MLIR": {
         "color": "#5EC8DB"
     },
@@ -1293,6 +1305,9 @@ export const linguistData: ColorRoot = {
     },
     "Meson": {
         "color": "#007800"
+    },
+    "MetaPost": {
+        "color": "#2b6cb0"
     },
     "Metal": {
         "color": "#8f14e9"
@@ -1933,6 +1948,9 @@ export const linguistData: ColorRoot = {
     "STAR": {
         "color": "#ededed"
     },
+    "STEP": {
+        "color": "#ededed"
+    },
     "STL": {
         "color": "#373b5e"
     },
@@ -2119,6 +2137,9 @@ export const linguistData: ColorRoot = {
     "TSQL": {
         "color": "#e38c00"
     },
+    "TSRX": {
+        "color": "#6f00ff"
+    },
     "TSV": {
         "color": "#237346"
     },
@@ -2209,6 +2230,9 @@ export const linguistData: ColorRoot = {
     "Typst": {
         "color": "#239dad"
     },
+    "Uiua": {
+        "color": "#c87dff"
+    },
     "Unified Parallel C": {
         "color": "#4e3617"
     },
@@ -2292,6 +2316,9 @@ export const linguistData: ColorRoot = {
     },
     "WDL": {
         "color": "#42f1f4"
+    },
+    "WESL": {
+        "color": "#0391e3"
     },
     "WGSL": {
         "color": "#1a5e9a"
