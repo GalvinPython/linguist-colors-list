@@ -197,7 +197,7 @@ export const linguistData: ColorRoot = {
         "color": "#ededed"
     },
     "Bend": {
-        "color": "#ededed"
+        "color": "#8b83b5"
     },
     "Berry": {
         "color": "#15A13C"
@@ -348,6 +348,9 @@ export const linguistData: ColorRoot = {
     },
     "CartoCSS": {
         "color": "#ededed"
+    },
+    "Cedar": {
+        "color": "#51732F"
     },
     "Ceylon": {
         "color": "#dfa535"
@@ -808,6 +811,9 @@ export const linguistData: ColorRoot = {
     "Golo": {
         "color": "#88562A"
     },
+    "Goose": {
+        "color": "#40E0D0"
+    },
     "Gosu": {
         "color": "#82937f"
     },
@@ -1087,6 +1093,9 @@ export const linguistData: ColorRoot = {
     "KakouneScript": {
         "color": "#6f8042"
     },
+    "KerML": {
+        "color": "#5C6BC0"
+    },
     "KerboScript": {
         "color": "#41adf0"
     },
@@ -1154,7 +1163,7 @@ export const linguistData: ColorRoot = {
         "color": "#f2a542"
     },
     "Lean": {
-        "color": "#ededed"
+        "color": "#3d6ac9"
     },
     "Lean 4": {
         "color": "#ededed"
@@ -2112,6 +2121,9 @@ export const linguistData: ColorRoot = {
     },
     "Swift": {
         "color": "#F05138"
+    },
+    "SysML": {
+        "color": "#3F51B5"
     },
     "SystemVerilog": {
         "color": "#DAE1C2"
