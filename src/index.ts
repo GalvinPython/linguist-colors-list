@@ -127,6 +127,9 @@ export const linguistData: ColorRoot = {
     "ArkTS": {
         "color": "#0080ff"
     },
+    "Artistic Style Configuration": {
+        "color": "#8ea8ff"
+    },
     "AsciiDoc": {
         "color": "#73a0c5"
     },
@@ -960,6 +963,9 @@ export const linguistData: ColorRoot = {
     },
     "Imba": {
         "color": "#16cec6"
+    },
+    "Indent Profile": {
+        "color": "#54463a"
     },
     "Inform 7": {
         "color": "#ededed"
