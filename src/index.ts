@@ -55,6 +55,9 @@ export const linguistData: ColorRoot = {
     "APL": {
         "color": "#5A8164"
     },
+    "ARM Assembly": {
+        "color": "#eeeebb"
+    },
     "ASL": {
         "color": "#ededed"
     },
@@ -177,6 +180,9 @@ export const linguistData: ColorRoot = {
     },
     "BASIC": {
         "color": "#ff0000"
+    },
+    "BBC BASIC": {
+        "color": "#004499"
     },
     "BBCode": {
         "color": "#CAFF42"
@@ -424,6 +430,9 @@ export const linguistData: ColorRoot = {
     "Common Workflow Language": {
         "color": "#B5314C"
     },
+    "Compact": {
+        "color": "#3d6bfc"
+    },
     "Component Pascal": {
         "color": "#B0CE4E"
     },
@@ -480,6 +489,9 @@ export const linguistData: ColorRoot = {
     },
     "D2": {
         "color": "#526ee8"
+    },
+    "DAX": {
+        "color": "#F7E17C"
     },
     "DIGITAL Command Language": {
         "color": "#ededed"
